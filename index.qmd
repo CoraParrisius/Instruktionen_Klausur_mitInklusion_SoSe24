@@ -1,0 +1,112 @@
+---
+title: "Instruktionen zur Klausur"
+subtitle: "[Psychologie]{.imp} und ggf. [Forschungsmethoden]{.imp}, 5. August 2024"
+footer: "Folien herunterladen: "
+format: 
+  revealjs:
+    embed-resources: true
+    controls: true
+    slide-number: true
+    logo: img/PHlogo.svg
+    theme: [dark, css/custom.scss]
+    fullscreen: true
+    auto-slide: 5000
+    loop: true
+csl: apa.csl
+---
+
+```{r hidden chunk which creates template stuff}
+#| echo: false
+
+## in terminal ########
+# quarto install extension quarto-ext/fontawesome
+# quarto install extension schochastics/academicons
+#
+
+########################
+library(fontawesome)
+library(tidyverse)
+set.seed(848265)
+
+# Change css to lecker PH green
+if(!dir.exists("img"))
+dir.create("img")
+if(!dir.exists("css"))
+dir.create("css")
+fileConn<-file("css/custom.scss")
+writeLines(c("/*-- scss:defaults --*/",
+             "$link-color: #8cd000 !default;",
+             ".imp {color: #8cd000;}",
+             #".em15 {font-size:1.5em;}",
+             ".c {text-align: right !important;}"
+             #".callout-title {background-color: #8cd000 !important;}"
+             ),
+           fileConn)
+close(fileConn)
+```
+
+## Wie läuft die Klausur ab? {.smaller}
+
+[Allgemein]{.imp}
+
+* Verteilen Sie sich auf die Plätze im Raum
+* Halten Sie Ihren Studierendenausweis bereit
+* Halten Sie die Anmeldedaten für den InnovationSpace (= allg. PHKA-Zugangsdaten) bereit
+* Sie können die Reihenfolge der Klausurteile beliebig wählen
+* Sobald Sie die jeweilige Klausur starten, beginnt ihr individueller Countdown
+* Sie können zwischen Aufgaben hin- und herspringen (Navigation auf der rechten Seite ggf. öffnen)
+
+::: columns
+::: {.column width="50%"}
+
+[Psychologie]{.imp}
+
+* Die Klausur enthält 25 Aufgaben
+* Sie haben 45 Minuten Zeit
+
+:::
+
+::: {.column width="50%}
+
+[Forschungsmethoden]{.imp}
+
+* Die Klausur enthält 33 Aufgaben
+* Sie haben 60 Minuten Zeit
+
+:::
+:::
+
+
+## Kurs für die Klausur:
+
+[https://bit.ly/parrisius005](https://bit.ly/parrisius005){target="_blank"}
+
+
+## {.smaller}
+
+::: {.callout-note}
+## Was ist erlaubt?
+
+* Digitale und analoge Notizen
+* Inhalte der Vorlesung
+    * StudIP Umgebung des Kurses "Präsenz-Vorlesung: V1077 Einführung in die Grundlagen der Psychologie"
+    * InnovationSpace-Kurs "LA M2 Forschungsmethoden SoSe 24"
+* Taschenrechner (aber *nicht* graphikfähiger Taschenrechner)
+:::
+
+::: {.callout-important}
+## Was ist nicht erlaubt?
+
+* Weitere Hilfsmittel über die oben genannten hinausgehend (also: kein Google, Bing, Wikipedia, andere Webpages, ...)
+* Jede Kommunikation (z.B. mündlich, schriftlich, telefonisch, elektronisch) mit anderen Menschen oder intelligenten Agenten (z.B. ChatGPT, Siri, Alexa, ...). Lassen Sie also Mails, Chats etc. geschlossen (sonst Täuschungsversuch).
+* Ton- und Videoquellen
+* Kopfhörer
+:::
+
+::: {.callout-warning}
+## Was passiert bei einem Täuschungsversuch?
+Um keine Störungen zu verursachen, dokumentieren wir den Täuschungsversuch 'still' und verbuchen anschließend Ihre Leistung als nicht bestanden (dieses Vorgehen ist rechtssicher).
+:::
+
+# Viel Erfolg bei der Klausur! {style="text-align: center;"}
+
