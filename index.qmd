@@ -1,7 +1,7 @@
 ---
 title: "Instruktionen zur Klausur"
 subtitle: "[Psychologie]{.imp} und ggf. [Forschungsmethoden]{.imp}, 5. August 2024"
-footer: "Folien herunterladen: "
+footer: "Folien herunterladen: https://bit.ly/3WoC4IU"
 format: 
   revealjs:
     embed-resources: true
@@ -77,7 +77,7 @@ close(fileConn)
 :::
 
 
-## Kurs für die Klausur:
+## Kurs für die Klausur: {.center}
 
 [https://bit.ly/parrisius005](https://bit.ly/parrisius005){target="_blank"}
 
