@@ -45,6 +45,8 @@ writeLines(c("/*-- scss:defaults --*/",
 close(fileConn)
 ```
 
+# Testfolie {style="text-align: center;"}
+
 ## Wie läuft die Klausur ab? {.smaller}
 
 [Allgemein]{.imp}
@@ -70,8 +72,10 @@ close(fileConn)
 
 [Forschungsmethoden]{.imp}
 
+
 * Die Klausur enthält 33 Aufgaben
 * Sie haben 60 Minuten Zeit
+
 
 :::
 :::
@@ -79,7 +83,7 @@ close(fileConn)
 
 ## Kurs für die Klausur: {.center}
 
-[https://bit.ly/parrisius005](https://bit.ly/parrisius005){target="_blank"}
+[https://bit.ly/parrisius005](https://bit.ly/parrisius005){target="_blank"}  
 
 
 ## {.smaller}
