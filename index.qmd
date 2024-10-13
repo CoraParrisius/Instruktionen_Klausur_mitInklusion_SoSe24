@@ -45,8 +45,6 @@ writeLines(c("/*-- scss:defaults --*/",
 close(fileConn)
 ```
 
-# Testfolie {style="text-align: center;"}
-
 ## Wie läuft die Klausur ab? {.smaller}
 
 [Allgemein]{.imp}
